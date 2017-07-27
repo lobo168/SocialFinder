@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">" SocialFinder"</string>
+    <!--ListView-->
+    <string name="firstlable">First Name: </string>
+    <string name="lastlable">Last Name: </string>
+    <!--Buttons-->
+    <string name="about">About</string>
+    <string name="browse">Browse</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <!--Map API Key-->
+    <string name="map_api">AIzaSyA5XoITA-5MJwll_XXUu1dQY5ZmfSip9To</string>
+    <!--Bottom navigation-->
+    <string name="text_home">Home</string>
+    <string name="text_browse">Browse</string>
+    <string name="text_favorite">Favorites</string>
+    <string name="text_location">Location</string>
+    <!--Table Layout-->
+    <string name="personal_information">Personal information</string>
+    <string name="age">Age</string>
+    <string name="eye">Eye color</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="company">Company</string>
+    <string name="address">Address</string>
+    <!--Menu Top-->
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+    <!--Headers-->
+    <string name="name_header">Browse People</string>
+    <string name="favourite_header">Favourite People</string>
+    <!--About Page-->
+    <string name="about_application">About Application</string>
+    <string name="about_page">About</string>
+    <string name="about_text">Includes all information about application</string>
+    <string name="home_page">Home</string>
+    <string name="home_text">Main page with navigation to other parts of application</string>
+    <string name="browse_page">Browse</string>
+    <string name="browse_text">Allows user to browse avalible people and get more information about them</string>
+    <string name="favourite_page">Favourite</string>
+    <string name="favourite_text">Page that includes favourited people</string>
+    <string name="browse_list">Browse item click</string>
+    <string name="browse_list_text">Provides more information about clicked person</string>
+    <string name="like_button">Like</string>
+    <string name="like_button_text">Adds person to favourite page</string>
+    <string name="dislike_button">Dislike</string>
+    <string name="dislike_button_text">Removes person from favourite page</string>
+    <string name="menu_button">Top, Bottom menu</string>
+    <string name="menu_button_text">Allows to navigate through application</string>
+</resources>

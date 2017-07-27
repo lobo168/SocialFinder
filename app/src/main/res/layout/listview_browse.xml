@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <!--First Name-->
+    <TextView
+        android:id="@+id/firstlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/firstlable"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/firstlabel"
+        android:textSize="20sp"/>
+
+    <!--Last Name-->
+    <TextView
+        android:id="@+id/lastlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstlabel"
+
+        android:text="@string/lastlable"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:layout_toRightOf="@+id/lastlabel"
+        android:textSize="20sp"/>
+
+    <!--Person Photo-->
+    <ImageView
+        android:id="@+id/photo"
+        android:src="@drawable/image"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10px"/>
+
+    <!--Like button-->
+    <Button
+        android:id="@+id/likeButton"
+
+        android:text="@string/like"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#32A807"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/photo"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+</RelativeLayout>
